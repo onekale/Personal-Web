@@ -2,9 +2,9 @@ part of values;
 
 class StringConst {
   //strings
-  static const String APP_NAME = "David Legend Portfolio";
-  static const String APP_TITLE = "David Legend Portfolio";
-  static const String SITE_URL = "https://davidcobbina.com";
+  static const String APP_NAME = "Kaleab Shewanhe Portfolio";
+  static const String APP_TITLE = "Kaleab Shewanhe Portfolio";
+  static const String SITE_URL = "https://kaleabshewanhe.com";
 
   static const String HOME = "Home";
   static const String ABOUT = "About";
@@ -22,9 +22,9 @@ class StringConst {
 
   // Home Page
   static const String HI = "Hi,";
-  static const String DEV_INTRO = "I'm David.";
+  static const String DEV_INTRO = "I'm Kaleab.";
   static const String DEV_TITLE = "Software Engineer.";
-  static const String DEV_DESC = "Mobile Engineer / Full Stack Developer / Cloud Devops";
+  static const String DEV_DESC = "Mobile App Developer / Full Stack Developer / Telegram Bot Developer";
   static const String SEE_MY_WORKS = "See my works";
   static const String SCROLL_DOWN = "Scroll Down";
   static const String CRAFTED_WITH_LOVE = "Crafted with love.";
@@ -35,7 +35,7 @@ class StringConst {
   // Contact Page
   static const String GET_IN_TOUCH = "Get in touch.";
   static const String CONTACT_MSG =
-      "Hey There, Got a project, job offer or consulting work for me? Feel free to contact me ASAP.";
+      "Hey There, Got a project, job offer for me? Feel free to contact me ASAP.";
   static const String YOUR_NAME = "Your Name";
   static const String NAME_ERROR_MSG = "* Please enter your name";
   static const String YOUR_EMAIL = "Your Email";
@@ -47,7 +47,7 @@ class StringConst {
   static const String MESSAGE_ERROR_MSG =
       "* Please enter something to send this form";
   static const String SEND_MESSAGE = "Send Message";
-  static const String COPYRIGHT = "©  2021  Built by  $DEV_NAME,";
+  static const String COPYRIGHT = "©  2025  Built by  $DEV_NAME,";
   static const String DESIGNED_BY = "Designed by Julius G.";
   static const String DESIGN_LINK =
       "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
@@ -62,15 +62,15 @@ class StringConst {
   static const String ABOUT_DEV_CATCH_LINE_2 =
       "quality mobile & web applications.";
   // static const String ABOUT_DEV_CATCH_LINE_3 = "& web applications";
-  static const String ABOUT_DEV_CATCH_LINE_4 = "I also have a strong";
-  static const String ABOUT_DEV_CATCH_LINE_5 = "passion for opensource work.";
+  static const String ABOUT_DEV_CATCH_LINE_4 = "inspired to solve my real-life Problems";
+  static const String ABOUT_DEV_CATCH_LINE_5 = "my daily challenges through purpose-driven code.";
   static const String ABOUT_DEV_STORY = "Story";
   static const String ABOUT_DEV_STORY_TITLE =
       "A little bit about myself.";
   static const String ABOUT_DEV_STORY_CONTENT_1 =
-      "I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building frontend (mobile & web) and backend applications. I occasionally work as a tech consultant and I am enthusiastic about Devops & Cloud computing technologies.";
+      "My name is Kaleab Shewanhe, a 5th-year Software Engineering student at Debre Markos University, located in the Amhara Region of Ethiopia. I am a full-stack Flutter developer, specializing in Flutter for front-end development and NestJS for back-end solutions.";
   static const String ABOUT_DEV_STORY_CONTENT_2 =
-      "I have a Masters in IT from Carnegie Mellon University where I majored in Software Engineering. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with clients all over the world.";
+      "I have five months of hands-on experience working as a back-end developer at Go Digital Technology, where I contributed to real-world software projects. Currently, I’m also developing a Telegram bot, and I am deeply passionate about solving everyday problems through software, especially those that personally affect me. I believe in using my career to create meaningful impact. In addition to my technical skills, I value team collaboration, effective communication, and continuous learning.";
   static const String ABOUT_DEV_STORY_CONTENT_3 =
       "I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.";
   static const String ABOUT_DEV_TECHNOLOGY = "Technology";
@@ -111,7 +111,7 @@ class StringConst {
   static const String VIEW = "View";
   static const String COMING_SOON = "COMING SOON !!";
   static const String BUILT_WITH_FLUTTER = "Built using ";
-  static const String DEV_EMAIL = "davidcobbina47@gmail.com";
+  static const String DEV_EMAIL = "kaleshewanhe@gmail.com";
   static const String EMAIL_URL = "mailto:<$DEV_EMAIL>?subject=&body=";
 
   static const String KEY_SKILLS = "KEY SKILLS";
@@ -123,12 +123,12 @@ class StringConst {
 
   static const String PROJECT_NAME = "Project Name";
 
-  static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "David Cobbina";
+  static const String INTRO = "Hi, My Name is";
+  static const String DEV_NAME = "Kaleab Shewanhe";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
-  static const String DESIGNED_IN = "Made in Ghana with ";
-  static const String BUILT_BY = "Built by David Cobbina ";
+  static const String DESIGNED_IN = "Made in Ethiopia with ";
+  static const String BUILT_BY = "Built by Kaleab Shewanhe ";
 
   
   //Form Hint Texts
@@ -169,13 +169,13 @@ class StringConst {
 
   //Socials
 
-  static const String GITHUB_URL = "https://github.com/david-legend";
+  static const String GITHUB_URL = "https://github.com/onekale";
   static const String LINKED_IN_URL =
-      "https://www.linkedin.com/in/david-cobbina-7b0226119";
+      "https://www.linkedin.com/in/kaleab-shewanhe-83b384321";
   static const String TWITTER_URL = "https://twitter.com/DavidLegend47";
   static const String INSTAGRAM_URL =
       "https://www.instagram.com/david_legend_47";
-  static const String TELEGRAM_URL = "https://t.me/DavidLegend";
+  static const String TELEGRAM_URL = "https://t.me/oneKale";
 
   //Contacts
   static const String CONNECT = "Connect with me";
@@ -202,7 +202,7 @@ class StringConst {
   //AwardedBy
   static const String GOOGLE = "Google";
   static const String UDACITY = "Udacity";
-  static const String CMU = "Carnegie Mellon University";
+  static const String CMU = "Debre Markos University";
 
   //CertificationType
   static const String MSC_IT = "Msc In Information Technology";
@@ -215,55 +215,55 @@ class StringConst {
   static const String CURRENT_MONTH_YEAR = "May 2020 - Current";
   static const String STARTED_MONTH_YEAR = "May 2017";
 
-  static const String COMPANY_2 = "Shrinq";
-  static const String COMPANY_2_URL = "https://shrinqghana.com/";
-  static const String POSITION_2 = "Software Engineer";
-  static const String COMPANY_2_ROLE_1 =
-      "Built a mobile app to track the status of all requested fibre broadband for Vodafone Ghana using Java Android.";
-  static const String COMPANY_2_ROLE_2 =
-      "Worked on a team of 2 to build an ID verification application using Java Android.";
-  static const String COMPANY_2_ROLE_3 =
-      "Developed and maintained client & in-house projects primarily using Javascript, React js, Next js, Express and Node js";
-  static const String LOCATION_2 = "Asylum Down - Accra";
-  static const String DURATION_2 = "April 2018 - June 2019";
+  // static const String COMPANY_2 = "Shrinq";
+  // static const String COMPANY_2_URL = "https://shrinqghana.com/";
+  // static const String POSITION_2 = "Software Engineer";
+  // static const String COMPANY_2_ROLE_1 =
+  //     "Built a mobile app to track the status of all requested fibre broadband for Vodafone Ghana using Java Android.";
+  // static const String COMPANY_2_ROLE_2 =
+  //     "Worked on a team of 2 to build an ID verification application using Java Android.";
+  // static const String COMPANY_2_ROLE_3 =
+  //     "Developed and maintained client & in-house projects primarily using Javascript, React js, Next js, Express and Node js";
+  // static const String LOCATION_2 = "Asylum Down - Accra";
+  // static const String DURATION_2 = "April 2018 - June 2019";
 
-  static const String COMPANY_3 = "Bewsys";
+  static const String COMPANY_3 = "BlueZone PLC";
   static const String COMPANY_3_URL = "https://bewsys.com/";
   static const String POSITION_3 = "Software Engineer";
   static const String COMPANY_3_ROLE_1 =
-      "Worked in a team of 3 to design and implement backend infrastructure of an inmate management system for the National Prison of South Sudan.";
+      "Sister Company With GODigital PLC";
   static const String COMPANY_3_ROLE_2 =
-      "Architected and implemented a mobile application for the Palestinian Agriculture Advisory System.";
+      "Most of there work is the same.";
   static const String COMPANY_3_ROLE_3 =
-      "Modified existing software to correct errors, upgrade interfaces and improve performance.";
+      "Most of there work is the same.";
   static const String LOCATION_3 = "East Legon - Accra";
-  static const String DURATION_3 = "August 2019 - April 2020";
+  static const String DURATION_3 = "Oct 2024 - Dec 2024";
 
 
-  static const String COMPANY_4 = "Brij Money";
-  static const String COMPANY_4_URL = "https://www.brij.money/";
-  static const String POSITION_4 = "Software Engineer Intern";
+  static const String COMPANY_4 = "GoDigital Technology";
+  static const String COMPANY_4_URL = "http://www.godigitalethio.com/";
+  static const String POSITION_4 = "Mobile Developer";
   static const String COMPANY_4_ROLE_1 =
-      "Worked closely with designers & backend engineers to develop and ship merchants feature which allowed end users to purchase items from a merchant store on the Brij app.";
+      "GoDigital Technology is a dynamic digital solutions company dedicated to transforming businesses through cutting-edge innovation. We help organizations grow by delivering strategic, creative, and result-driven digital services tailored to their needs.";
   static const String COMPANY_4_ROLE_2 =
-      "Developed and shipped airtime & bundle purchasing feature on the Brij mobile app.";
+      "There services include Web Development, Digital Marketing, SEO, ERP systems, Social Media Marketing, and Analytics & Reporting. Each solution is designed to improve efficiency, visibility, and engagement in today’s competitive market";
   static const String COMPANY_4_ROLE_3 =
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across brij’s iOS and Android mobile apps.";
+      "With a mission to become a leading digital marketing agency, GoDigital Technology remains committed to innovation, integrity, and building strong, long-term client partnerships";
   static const String LOCATION_4 = "Accra - Ghana";
-  static const String DURATION_4 = "June 2021 - Aug 2021";
+  static const String DURATION_4 = "Aug 2024 - Oct 2024";
 
 
-  static const String COMPANY_5 = "Consultant";
-  static const String COMPANY_5_URL = SITE_URL;
-  static const String POSITION_5 = "Software Engineer Consultant";
+  static const String COMPANY_5 = "Perago Systems";
+  static const String COMPANY_5_URL = "https://www.peragosystems.com/";
+  static const String POSITION_5 = "BackEnd Developer Intern";
   static const String COMPANY_5_ROLE_1 =
-      "Led engineering team to develop & ship a SaaS grid monitoring mobile application platform for Hive Power company in Switzerland.";
+      "Perago Systems is a technology company that focuses on developing and implementing electronic government solutions.";
   static const String COMPANY_5_ROLE_2 =
-      "Designed and built technology infrastructure for a leading Ghanaian Insurance company";
+      "It also works on B2B commerce solutions aimed at providing various online transactional services.";
   static const String COMPANY_5_ROLE_3 =
-      "Worked with GoFlow Services in India to improve the architecture of an already existing video streaming mobile application (BeThere).";
+      "Perago provides strong technical support and knowledge transfer to sustain the competitive advantages gained by customers from their ICT investments.";
   static const String LOCATION_5 = "Kigali - Rwanda";
-  static const String DURATION_5 = "May 2020 - Sept 2022";
+  static const String DURATION_5 = "July 2024 - Aug 2024";
 
   //Portfolio, Projects
   static const String PORTFOLIO_SITE_V2 = "Aerium V2";
@@ -278,7 +278,7 @@ class StringConst {
       "https://github.com/david-legend/david-legend.github.io";
   static const String PORTFOLIO_SITE_V2_WEB_URL = "https://davidcobbina.com/";
 
-  static const String DROP = "Drop";
+  static const String DROP = "Chat Social";
   static const String DROP_PLATFORM = "Android / IOS.";
   static const String DROP_CATEGORY = "Ecommerce.";
   static const String DROP_DESIGNER = "Stepan Slobodiansky.";
@@ -290,7 +290,7 @@ class StringConst {
   static const String DROP_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=com.davidcobbina.drop";
 
-  static const String NIMBUS = "Nimbus";
+  static const String NIMBUS = "Music App";
   static const String NIMBUS_PLATFORM = "Web.";
   static const String NIMBUS_CATEGORY = "Portfolio / CV.";
   static const String NIMBUS_DESIGNER = "Web Genius Labs.";
@@ -302,7 +302,7 @@ class StringConst {
       "https://github.com/david-legend/nimbus";
   static const String NIMBUS_WEB_URL = "https://david-legend.github.io/nimbus/";
 
-  static const String ROAM = "Roam";
+  static const String ROAM = "Halaabalissata Dictionary";
   static const String ROAM_PLATFORM = "Android / IOS.";
   static const String ROAM_CATEGORY = "Travel.";
   static const String ROAM_DESIGNER = "Georgina Sekyi.";
@@ -314,7 +314,7 @@ class StringConst {
   static const String ROAM_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=com.davidcobbina.roam";
 
-  static const String LOGIN_CATALOG = "Login Catalog";
+  static const String LOGIN_CATALOG = "Spritual Family";
   static const String LOGIN_CATALOG_PLATFORM = "Android / IOS.";
   static const String LOGIN_CATALOG_CATEGORY = "UI Kit.";
   static const String LOGIN_CATALOG_SUBTITLE =
@@ -326,42 +326,42 @@ class StringConst {
   static const String LOGIN_CATALOG_GITHUB_URL =
       "https://github.com/david-legend/login_catalog";
 
-  static const String FOODY_BITE = "FoodyBite";
-  static const String FOODY_BITE_PLATFORM = "Android / IOS.";
-  static const String FOODY_BITE_CATEGORY = "Food / Restaurant.";
-  static const String FOODY_BITE_DESIGNER = "Yagnesh P.";
-  static const String FOODY_BITE_SUBTITLE =
-      "A useful free ui kit design for food related apps";
-  static const String FOODY_BITE_DETAIL =
-      "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by David Cobbina. The goal of this project is to fast track development and inspire developers who want to build a food related app.";
-  static const String FOODY_BITE_PLAYSTORE_URL = "";
-  static const String FOODY_BITE_GITHUB_URL =
-      "https://github.com/david-legend/foodybite";
+//   static const String FOODY_BITE = "FoodyBite";
+//   static const String FOODY_BITE_PLATFORM = "Android / IOS.";
+//   static const String FOODY_BITE_CATEGORY = "Food / Restaurant.";
+//   static const String FOODY_BITE_DESIGNER = "Yagnesh P.";
+//   static const String FOODY_BITE_SUBTITLE =
+//       "A useful free ui kit design for food related apps";
+//   static const String FOODY_BITE_DETAIL =
+//       "Foodybite is a free ui kit designed by Yagnesh Pipariya and built by David Cobbina. The goal of this project is to fast track development and inspire developers who want to build a food related app.";
+//   static const String FOODY_BITE_PLAYSTORE_URL = "";
+//   static const String FOODY_BITE_GITHUB_URL =
+//       "https://github.com/david-legend/foodybite";
 
-  static const String OTP_TEXT_FIELD = "Otp Textfield";
-  static const String OTP_TEXT_FIELD_PLATFORM = "Flutter Package/Library.";
-  static const String OTP_TEXT_FIELD_CATEGORY = "Package.";
-  static const String OTP_TEXT_FIELD_SUBTITLE =
-      "A useful flutter package for helping with otp";
-  static const String OTP_TEXT_FIELD_DETAIL =
-      "Otp text field is a simple flutter package built to help flutter devs easily implement OTP in their app. It is highly customizable and very easy to use.";
-  static const String OTP_TEXT_FIELD_GITHUB_URL =
-      "https://github.com/david-legend/otp_textfield";
-  static const String OTP_TEXT_FIELD_WEB_URL =
-      "https://pub.dev/packages/flutter_otp_text_field";
+//   static const String OTP_TEXT_FIELD = "Otp Textfield";
+//   static const String OTP_TEXT_FIELD_PLATFORM = "Flutter Package/Library.";
+//   static const String OTP_TEXT_FIELD_CATEGORY = "Package.";
+//   static const String OTP_TEXT_FIELD_SUBTITLE =
+//       "A useful flutter package for helping with otp";
+//   static const String OTP_TEXT_FIELD_DETAIL =
+//       "Otp text field is a simple flutter package built to help flutter devs easily implement OTP in their app. It is highly customizable and very easy to use.";
+//   static const String OTP_TEXT_FIELD_GITHUB_URL =
+//       "https://github.com/david-legend/otp_textfield";
+//   static const String OTP_TEXT_FIELD_WEB_URL =
+//       "https://pub.dev/packages/flutter_otp_text_field";
 
-  static const String DISNEY_PLUS = "Disney Plus";
+  static const String DISNEY_PLUS = "Kuch Delivery";
   static const String DISNEY_PLUS_PLATFORM = "Android.";
   static const String DISNEY_PLUS_CATEGORY = "UI Kit.";
   static const String DISNEY_PLUS_SUBTITLE =
       "Disney+, But Better";
   static const String DISNEY_PLUS_DETAIL =
-      "Disney Plus is an amazing UI Kit  designed by Andre Carioca. He describes the UI Kit as his attempt of making the current disney plus app better. For me, this project is my attempt at learning and playing with Jetpack Compose. It contains everything that I am learning about the current state of native android development with Kotlin & Jetpack Compose";
+      "KUCH Delivery is a fast, reliable, and user-friendly mobile application designed to revolutionize the local delivery experience. Whether it's food, groceries, packages, or personal items, KUCH Delivery connects users with nearby couriers for quick and secure deliveries. With real-time tracking, multiple payment options, and a sleek interface, the app ensures convenience at your fingertips. Our goal is to simplify everyday errands and empower small businesses by making local logistics smarter and more accessible. KUCH Delivery is not just an app — it’s your everyday delivery companion";
   static const String DISNEY_PLUS_PLAYSTORE_URL = "";
   static const String DISNEY_PLUS_GITHUB_URL =
       "https://github.com/david-legend/disneyPlus";
 
-  static const String FLUTTER_CATALOG = "Flutter Catalog";
+  static const String FLUTTER_CATALOG = "Sebhat Mezmure";
   static const String FLUTTER_CATALOG_PLATFORM = "Android / IOS.";
   static const String FLUTTER_CATALOG_CATEGORY = "UI Kit.";
   static const String FLUTTER_CATALOG_SUBTITLE =
@@ -373,7 +373,7 @@ class StringConst {
   static const String FLUTTER_CATALOG_GITHUB_URL =
       "https://github.com/david-legend/flutter_catalog";
 
-  static const String AERIUM = "Aerium";
+  static const String AERIUM = "Deje Selam";
   static const String AERIUM_PLATFORM = "Web.";
   static const String AERIUM_CATEGORY = "Portfolio / CV.";
   static const String AERIUM_DESIGNER = "Pavel G.";
@@ -385,7 +385,7 @@ class StringConst {
       "https://github.com/david-legend/aerium";
   static const String AERIUM_WEB_URL = "http://david-legend.github.io/aerium";
 
-  static const String AERIUM_V2 = "Aerium V2 ";
+  static const String AERIUM_V2 = "Bread Delivery ";
   static const String AERIUM_V2_PLATFORM = "Web.";
   static const String AERIUM_V2_CATEGORY = "Portfolio / CV.";
   static const String AERIUM_V2_DESIGNER = "Julius G.";
@@ -397,7 +397,7 @@ class StringConst {
       "https://github.com/david-legend/david-legend.github.io";
   static const String AERIUM_V2_WEB_URL = "https://davidcobbina.com/#/";
 
-  static const String OUTFITR = "Outfitr";
+  static const String OUTFITR = "Go Attendance";
   static const String OUTFITR_PLATFORM = "Android / IOS.";
   static const String OUTFITR_CATEGORY = "Ecommerce.";
   static const String OUTFITR_SUBTITLE =
