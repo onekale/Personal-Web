@@ -299,8 +299,16 @@ class AboutDev extends StatefulWidget {
 }
 
 class _AboutDevState extends State<AboutDev> {
+  String _currentLang = 'en'; // default to English
+
+  void _toggleLang() {
+    setState(() {
+      _currentLang = _currentLang == 'en' ? 'am' : 'en';
+    });
+  }
   @override
   Widget build(BuildContext context) {
+
     TextTheme textTheme = Theme.of(context).textTheme;
     EdgeInsetsGeometry margin = const EdgeInsets.only(left: 16);
     final CurvedAnimation curvedAnimation = CurvedAnimation(
@@ -311,16 +319,32 @@ class _AboutDevState extends State<AboutDev> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+         ElevatedButton(
+  onPressed: _toggleLang,
+  style: ElevatedButton.styleFrom(
+    backgroundColor: Colors.white,
+    padding: EdgeInsets.all(12),
+    shape: CircleBorder(),
+  ),
+  child: Icon(
+    _currentLang == 'en' ? Icons.language : Icons.translate,
+    color: AppColors.black,
+    size: responsiveSize(context, 20, 28, md: 24, sm: 20),
+  ),
+),
+        SizedBox(height: 10),
         Container(
           margin: margin,
           child: AnimatedTextSlideBoxTransition(
             controller: widget.controller,
-            text: StringConst.HI,
+            text: StringConst.HI[_currentLang]!,
             width: widget.width,
             maxLines: 3,
             textStyle: textTheme.displayMedium?.copyWith(
               color: AppColors.black,
               fontSize: headerFontSize,
+              
+              fontFamily: _currentLang == 'am' ? 'Geez' : null,
             ),
           ),
         ),
@@ -329,12 +353,13 @@ class _AboutDevState extends State<AboutDev> {
           margin: margin,
           child: AnimatedTextSlideBoxTransition(
             controller: widget.controller,
-            text: StringConst.DEV_INTRO,
+            text: StringConst.DEV_INTRO[_currentLang]!,
             width: widget.width,
             maxLines: 3,
             textStyle: textTheme.displayMedium?.copyWith(
               color: AppColors.black,
               fontSize: headerFontSize,
+              fontFamily: _currentLang == 'am' ? 'Geez' : null,
             ),
           ),
         ),
@@ -343,7 +368,7 @@ class _AboutDevState extends State<AboutDev> {
           margin: margin,
           child: AnimatedTextSlideBoxTransition(
             controller: widget.controller,
-            text: StringConst.DEV_TITLE,
+            text: StringConst.DEV_TITLE[_currentLang]!,
             width: responsiveSize(
               context,
               widget.width * 0.75,
@@ -355,6 +380,8 @@ class _AboutDevState extends State<AboutDev> {
             textStyle: textTheme.displayMedium?.copyWith(
               color: AppColors.black,
               fontSize: headerFontSize,
+              
+              fontFamily: _currentLang == 'am' ? 'Geez' : null,
             ),
           ),
         ),
@@ -366,7 +393,7 @@ class _AboutDevState extends State<AboutDev> {
             width: widget.width,
             maxLines: 3,
             factor: 2,
-            text: StringConst.DEV_DESC,
+            text:  StringConst.DEV_DESC[_currentLang]!,
             textStyle: textTheme.bodyLarge?.copyWith(
               fontSize: responsiveSize(
                 context,
@@ -375,6 +402,7 @@ class _AboutDevState extends State<AboutDev> {
               ),
               height: 2,
               fontWeight: FontWeight.w400,
+               fontFamily: _currentLang == 'am' ? 'Geez' : null,
             ),
           ),
         ),

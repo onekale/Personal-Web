@@ -79,6 +79,7 @@ flutter:
     - assets/screenshots/
   #    - assets/screenshots/
 
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
@@ -107,6 +108,11 @@ flutter:
           weight: 700
         - asset: assets/fonts/visuelt/VisueltPro-Bold.ttf
           weight: 800
+  
+
+    - family: Geez
+      fonts:
+        - asset: assets/fonts_1/Geez Brana.ttf
     #
     # For details regarding fonts from package dependencies,
     # see https://flutter.dev/custom-fonts/#from-packages

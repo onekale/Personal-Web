@@ -18,13 +18,33 @@ class StringConst {
   static const String PHONE_NUMBER = "Phone Number";
   static const String RESUME = "Resume";
   static const String CERTIFICATIONS = "Certifications";
-  static const String EMAIL_VALUE = "davidcobbina47@gmail.com";
+  static const String EMAIL_VALUE = "kaleshewanhe@gmail.com";
+
+
+    static const Map<String, String> HI = {
+    'en': "Hi,",
+    'am': 'ሰላም!',
+  };
+    static const Map<String, String> DEV_INTRO = {
+    'en':  "I'm Kaleab.",
+    'am': 'ቃልአብ ነኝ',
+  };
+
+  static const Map<String, String> DEV_TITLE = {
+    'en': 'Software Engineer.',
+    'am': 'ሶፍትዌር ኢንጅነር ',
+  };
+
+  static const Map<String, String> DEV_DESC = {
+    'en': '"Mobile App Developer / Full Stack Developer / Telegram Bot Developer.',
+    'am': 'የሞባይል መተግበሪያ ዴቨሎፐር፣ ፉል ስታክ ዴቨሎፐር፣ ቴሌግራም ቦት ዴቨሎፐር',
+  };
 
   // Home Page
-  static const String HI = "Hi,";
-  static const String DEV_INTRO = "I'm Kaleab.";
-  static const String DEV_TITLE = "Software Engineer.";
-  static const String DEV_DESC = "Mobile App Developer / Full Stack Developer / Telegram Bot Developer";
+  // static const String HI = "Hi,";
+  // static const String DEV_INTRO = "I'm Kaleab.";
+  // static const String DEV_TITLE = "Software Engineer.";
+  // static const String DEV_DESC = "Mobile App Developer / Full Stack Developer / Telegram Bot Developer";
   static const String SEE_MY_WORKS = "See my works";
   static const String SCROLL_DOWN = "Scroll Down";
   static const String CRAFTED_WITH_LOVE = "Crafted with love.";
@@ -49,8 +69,8 @@ class StringConst {
   static const String SEND_MESSAGE = "Send Message";
   static const String COPYRIGHT = "©  2025  Built by  $DEV_NAME,";
   static const String DESIGNED_BY = "Designed by Julius G.";
-  static const String DESIGN_LINK =
-      "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
+  // static const String DESIGN_LINK =
+  //     "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
   static const String MESSAGE_ME = "Message me";
   static const String EMAIL_RESPONSE = "Thanks for reaching out to me! I will get back to you ASAP";
   static const String EMAIL_FAILED_RESPONSE = "Something went wrong. Please send me an email manually - ${StringConst.DEV_EMAIL}";
@@ -124,7 +144,7 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, My Name is";
-  static const String DEV_NAME = "Kaleab Shewanhe";
+  static const String DEV_NAME = "ቃልአብ ሸዋነህ";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
   static const String DESIGNED_IN = "Made in Ethiopia with ";
@@ -187,29 +207,29 @@ class StringConst {
   static const String GITHUB = "Github";
 
   //Certificate Urls
-  static const String CMU_CERT_URL = "https://www.cmu.edu/hub/registrar/graduation/diplomas/electronic/validation/index.html";
-  static const String ASSOCIATE_ANDROID_DEV_URL =
-      "https://www.credential.net/b296da88-d6be-4bb5-9756-b13efea3a421";
-  static const String DATA_SCIENCE_CERT_URL =
-      "https://graduation.udacity.com/confirm/7CGEJAFR";
-  static const String CLOUD_DEVELOPER_URL =
-      "https://confirm.udacity.com/PJU23DCP";
-  static const String ANDROID_BASICS_CERT_URL =
-      "https://graduation.udacity.com/confirm/9VTDRN5K";
+  static const String ESHE_1_URL = "https://lms.courses.ethernet.edu.et/certificates/db81e04b7f6a4da2a2a8283d4f541ede";
+  static const String ESHE_4_URL =
+      "https://lms.courses.ethernet.edu.et/certificates/5a262ce375cf416083e85ed3a371ccdf";
+  static const String ESHE_5_URL =
+      "https://lms.courses.ethernet.edu.et/certificates/5e8f8d4f0e07459e9b7b36c012478def";
+  static const String ESHE_2_URL =
+      "https://lms.courses.ethernet.edu.et/certificates/85211af406d949e3863acfd5ebb7ded8";
+  static const String ESHE_3_URL =
+      "https://lms.courses.ethernet.edu.et/certificates/443428c96a514b9da4da6d7b26296a9c";
 
 
 
   //AwardedBy
   static const String GOOGLE = "Google";
-  static const String UDACITY = "Udacity";
+  static const String ESHE = "e-SHE";
   static const String CMU = "Debre Markos University";
 
   //CertificationType
-  static const String MSC_IT = "Msc In Information Technology";
-  static const String ASSOCIATE_ANDROID_DEV = "Associate Android Developer";
-  static const String CLOUD_DEVELOPER = "Cloud Developer";
-  static const String DATA_SCIENCE = "Data Science";
-  static const String ANDROID_BASICS = "Android Basics";
+  static const String MSC_IT = "keeping Yourswlf Safe Online";
+  static const String ESHE_4_TITLE = "How To Take Course";
+  static const String ESHE_2_TITLE = "Acadamic Integrity";
+  static const String DATA_SCIENCE = "How to Evaluate Resources";
+  static const String ANDROID_BASICS = "How to Study Effectively";
 
   //Experience
   static const String CURRENT_MONTH_YEAR = "May 2020 - Current";
@@ -233,10 +253,10 @@ class StringConst {
   static const String COMPANY_3_ROLE_1 =
       "Sister Company With GODigital PLC";
   static const String COMPANY_3_ROLE_2 =
-      "Most of there work is the same.";
+      "Most of there work is the same on DiGital Marketing.";
   static const String COMPANY_3_ROLE_3 =
       "Most of there work is the same.";
-  static const String LOCATION_3 = "East Legon - Accra";
+  static const String LOCATION_3 = "Bole Atlase, AddisAbeba";
   static const String DURATION_3 = "Oct 2024 - Dec 2024";
 
 
@@ -249,7 +269,7 @@ class StringConst {
       "There services include Web Development, Digital Marketing, SEO, ERP systems, Social Media Marketing, and Analytics & Reporting. Each solution is designed to improve efficiency, visibility, and engagement in today’s competitive market";
   static const String COMPANY_4_ROLE_3 =
       "With a mission to become a leading digital marketing agency, GoDigital Technology remains committed to innovation, integrity, and building strong, long-term client partnerships";
-  static const String LOCATION_4 = "Accra - Ghana";
+  static const String LOCATION_4 = "Bole Brace, AddisAbeba";
   static const String DURATION_4 = "Aug 2024 - Oct 2024";
 
 
@@ -285,7 +305,7 @@ class StringConst {
   static const String DROP_SUBTITLE =
       "A beautiful ecommerce mobile application.";
   static const String DROP_DETAIL =
-      "Drop is an online store which provides users with a simple, smooth experience and enabling users to get their hands on the latest and newest drops.";
+      "it Is Minimal Personal Social media. that have group chat those who are sign in in the plateform can communication in the groupchat section. and they can comunicate with there department and individualy. it has good fetures like when the person see the message can see with two tick.";
   static const String DROP_GITHUB_URL = "https://github.com/david-legend/drop";
   static const String DROP_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=com.davidcobbina.drop";
@@ -309,7 +329,7 @@ class StringConst {
   static const String ROAM_SUBTITLE =
       "UI / UX Case study for a travel advisory app.";
   static const String ROAM_DETAIL =
-      "Roam is a UI / UX Case study for a travel advisory app done by Georgina Sekyi and built by me using flutter.";
+      "beautifully designed halaba dictionary that it has more than 20,000 words with the meaning in amharic.";
   static const String ROAM_GITHUB_URL = "https://github.com/david-legend/roam";
   static const String ROAM_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=com.davidcobbina.roam";
@@ -320,7 +340,7 @@ class StringConst {
   static const String LOGIN_CATALOG_SUBTITLE =
       "A beautiful catalog of login designs";
   static const String LOGIN_CATALOG_DETAIL =
-      "Login Catalog is a beautiful catalog of login designs built with flutter. The goal is to catalog as many as a 1000 different login/Signup designs to help flutter devs get right to the most important part of their app.";
+      "reliable, and user-friendly mobile application designed to revolutionize the local delivery experience. Whether it's food, groceries, packages, or personal items, KUCH Delivery connects users with nearby couriers for quick and secure deliveries. With real-time tracking, multiple payment options, and a sleek interface, the app ensures convenience at your fingertips. Our goal is to simplify everyday errands and empower small businesses by making local logistics smarter and more accessible. KUCH Delivery is not just an app — it’s your everyday delivery companion.";
   static const String LOGIN_CATALOG_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=dev.davidcobbina.logincatalog";
   static const String LOGIN_CATALOG_GITHUB_URL =
@@ -348,7 +368,7 @@ class StringConst {
 //   static const String OTP_TEXT_FIELD_GITHUB_URL =
 //       "https://github.com/david-legend/otp_textfield";
 //   static const String OTP_TEXT_FIELD_WEB_URL =
-//       "https://pub.dev/packages/flutter_otp_text_field";
+//       "https://pub.dev/packages/flutter_otp_text_field"; 
 
   static const String DISNEY_PLUS = "Kuch Delivery";
   static const String DISNEY_PLUS_PLATFORM = "Android.";
@@ -365,9 +385,9 @@ class StringConst {
   static const String FLUTTER_CATALOG_PLATFORM = "Android / IOS.";
   static const String FLUTTER_CATALOG_CATEGORY = "UI Kit.";
   static const String FLUTTER_CATALOG_SUBTITLE =
-      "A beautiful catalog of login designs";
+      "A beautiful Ethiopian Orthodox hymns (mezmure) catalog";
   static const String FLUTTER_CATALOG_DETAIL =
-      "Flutter Catalog is a beautiful catalog of designs built with flutter. The goal is to catalog different components and building blocks of a mobile app to help flutter devs get right to the most important part of their app.";
+    "Sebhat Mezmure is a spiritual companion app created for Anketse Birhan Sunday School to share Ethiopian Orthodox hymns (mezmure) with the faithful. Designed with love and purpose, the app offers timely hymn releases to help users stay connected to their spiritual journey. Whether you are preparing for liturgy, reflecting in prayer, or learning new hymns, Sebhat Mezmure makes it accessible and organized.Receive instant notifications when new mezmurs are published, so you're always in sync with Sunday School teachings. Simple, elegant, and rooted in faith—Sebhat Mezmure brings the beauty of Orthodox worship to your fingertips.";
   static const String FLUTTER_CATALOG_PLAYSTORE_URL =
       "https://play.google.com/store/apps/details?id=dev.davidcobbina.fluttercatalog";
   static const String FLUTTER_CATALOG_GITHUB_URL =
@@ -429,6 +449,7 @@ class StringConst {
   static const String FINOPP_GITHUB_URL =
       "https://github.com/david-legend/finopp";
   static const String FINOPP_DETAIL_WEB_URL = "";
+
 
   static const String UDAGRAM_IMAGE_FILTERING = "Udagram Image Filtering App";
   static const String UDAGRAM_IMAGE_FILTERING_TECH = "Kubernetes / Docker / Ionic / Node.";
